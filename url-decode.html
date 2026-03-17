@@ -24,34 +24,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is %20 in a URL?",
+      "name": "How do I decode a URL encoded string?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "%20 is the URL-encoded representation of a space character. Other common encodings include %3D (=), %26 (&), %3F (?), and %23 (#)."
+        "text": "Paste the URL encoded string (containing %XX codes) into the input area and the tool instantly converts it back to readable text. For example, \"Hello%20World\" becomes \"Hello World\"."
       }
     },
     {
       "@type": "Question",
-      "name": "Does it decode plus signs as spaces?",
+      "name": "What does %20 mean in a URL?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! In URL query strings, plus signs (+) represent spaces. Our decoder converts both %20 and + to spaces, handling both encoding conventions."
+        "text": "%20 is the URL encoded representation of a space character. Similarly, %26 is \"&\", %3D is \"=\", and %3F is \"?\". URL encoding replaces unsafe characters with percent signs followed by two hexadecimal digits."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I decode an entire URL at once?",
+      "name": "Can I decode an entire URL with parameters?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, you can paste a complete URL and the decoder will convert all encoded characters back to their readable form while preserving the URL structure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if the encoded string contains invalid sequences?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The decoder will process valid percent-encoded sequences and leave invalid ones unchanged, so you can still read as much of the content as possible."
+        "text": "Yes! Paste the full URL with encoded query parameters and the tool decodes all percent-encoded characters. This is useful for reading complex URLs from logs, analytics tools, or API responses."
       }
     }
   ]
@@ -108,41 +100,37 @@
         <section class="faq">
             <h2>Frequently Asked Questions</h2>
             <details>
-                <summary>What is %20 in a URL?</summary>
-                <p>%20 is the URL-encoded representation of a space character. Other common encodings include %3D (=), %26 (&), %3F (?), and %23 (#).</p>
+                <summary>How do I decode a URL encoded string?</summary>
+                <p>Paste the URL encoded string (containing %XX codes) into the input area and the tool instantly converts it back to readable text. For example, "Hello%20World" becomes "Hello World".</p>
             </details>
             <details>
-                <summary>Does it decode plus signs as spaces?</summary>
-                <p>Yes! In URL query strings, plus signs (+) represent spaces. Our decoder converts both %20 and + to spaces, handling both encoding conventions.</p>
+                <summary>What does %20 mean in a URL?</summary>
+                <p>%20 is the URL encoded representation of a space character. Similarly, %26 is "&", %3D is "=", and %3F is "?". URL encoding replaces unsafe characters with percent signs followed by two hexadecimal digits.</p>
             </details>
             <details>
-                <summary>Can I decode an entire URL at once?</summary>
-                <p>Yes, you can paste a complete URL and the decoder will convert all encoded characters back to their readable form while preserving the URL structure.</p>
-            </details>
-            <details>
-                <summary>What if the encoded string contains invalid sequences?</summary>
-                <p>The decoder will process valid percent-encoded sequences and leave invalid ones unchanged, so you can still read as much of the content as possible.</p>
+                <summary>Can I decode an entire URL with parameters?</summary>
+                <p>Yes! Paste the full URL with encoded query parameters and the tool decodes all percent-encoded characters. This is useful for reading complex URLs from logs, analytics tools, or API responses.</p>
             </details>
         </section>
 
         <section class="converters-list">
-            <h2>Related Tools</h2>
+            <h2>You May Also Need</h2>
             <div class="converter-cards">
                 <a href="/url-encode.html" class="card">
                     <h3>URL Encoder</h3>
-                    <p>URL encode text online for free. Convert special characters to percent-encoded f...</p>
-                </a>
-                <a href="/html-decode.html" class="card">
-                    <h3>HTML Decoder</h3>
-                    <p>Decode HTML entities to text online for free. Convert &amp;, &lt;, &gt; and othe...</p>
+                    <p>Encode text for safe use in URLs (percent encoding)</p>
                 </a>
                 <a href="/base64-decode.html" class="card">
                     <h3>Base64 Decoder</h3>
-                    <p>Decode Base64 strings to text online for free. Convert Base64 encoded data back ...</p>
+                    <p>Decode Base64 encoded text back to readable text</p>
+                </a>
+                <a href="/html-decode.html" class="card">
+                    <h3>HTML Entity Decoder</h3>
+                    <p>Decode HTML entities back to normal characters</p>
                 </a>
                 <a href="/hex-to-text.html" class="card">
-                    <h3>Hex to Text Converter</h3>
-                    <p>Convert hexadecimal to text online for free. Decode hex strings back to readable...</p>
+                    <h3>Hex to Text</h3>
+                    <p>Convert hexadecimal (hex) to readable text</p>
                 </a>
             </div>
         </section>

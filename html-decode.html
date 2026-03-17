@@ -24,34 +24,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What HTML entities does it decode?",
+      "name": "How do I decode HTML entities to normal text?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It decodes all standard HTML entities including named entities (&amp;, &lt;, &gt;, &quot;, &nbsp;), decimal entities (&#38;), and hexadecimal entities (&#x26;)."
+        "text": "Paste text containing HTML entities (like &amp;amp;, &amp;lt;, &amp;gt;, &amp;quot;) into the input area and the tool converts them back to their original characters. This is useful for reading HTML source code or cleaning scraped content."
       }
     },
     {
       "@type": "Question",
-      "name": "Can it decode all special HTML characters?",
+      "name": "What are HTML entities?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! The decoder handles all 2,000+ named HTML entities, as well as any valid decimal or hexadecimal numeric entity reference."
+        "text": "HTML entities are special codes used to represent characters that have special meaning in HTML. They start with & and end with ;. For example, &amp;amp; represents &, &amp;lt; represents <, and &amp;nbsp; represents a non-breaking space."
       }
     },
     {
       "@type": "Question",
-      "name": "Why would I need to decode HTML entities?",
+      "name": "Can I decode numeric HTML entities?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Common reasons include extracting clean text from HTML source code, processing scraped web content, fixing double-encoded text, and converting HTML email content to plain text."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is double encoding?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Double encoding happens when already-encoded text gets encoded again, producing things like &amp;amp; instead of &amp;. Our decoder converts one level of encoding at a time."
+        "text": "Yes! The tool decodes both named entities (like &amp;amp;) and numeric entities (like &amp;#38; or &amp;#x26;). Numeric entities use either decimal or hexadecimal values to represent characters."
       }
     }
   ]
@@ -108,41 +100,37 @@
         <section class="faq">
             <h2>Frequently Asked Questions</h2>
             <details>
-                <summary>What HTML entities does it decode?</summary>
-                <p>It decodes all standard HTML entities including named entities (&amp;, &lt;, &gt;, &quot;, &nbsp;), decimal entities (&#38;), and hexadecimal entities (&#x26;).</p>
+                <summary>How do I decode HTML entities to normal text?</summary>
+                <p>Paste text containing HTML entities (like &amp;amp;, &amp;lt;, &amp;gt;, &amp;quot;) into the input area and the tool converts them back to their original characters. This is useful for reading HTML source code or cleaning scraped content.</p>
             </details>
             <details>
-                <summary>Can it decode all special HTML characters?</summary>
-                <p>Yes! The decoder handles all 2,000+ named HTML entities, as well as any valid decimal or hexadecimal numeric entity reference.</p>
+                <summary>What are HTML entities?</summary>
+                <p>HTML entities are special codes used to represent characters that have special meaning in HTML. They start with & and end with ;. For example, &amp;amp; represents &, &amp;lt; represents <, and &amp;nbsp; represents a non-breaking space.</p>
             </details>
             <details>
-                <summary>Why would I need to decode HTML entities?</summary>
-                <p>Common reasons include extracting clean text from HTML source code, processing scraped web content, fixing double-encoded text, and converting HTML email content to plain text.</p>
-            </details>
-            <details>
-                <summary>What is double encoding?</summary>
-                <p>Double encoding happens when already-encoded text gets encoded again, producing things like &amp;amp; instead of &amp;. Our decoder converts one level of encoding at a time.</p>
+                <summary>Can I decode numeric HTML entities?</summary>
+                <p>Yes! The tool decodes both named entities (like &amp;amp;) and numeric entities (like &amp;#38; or &amp;#x26;). Numeric entities use either decimal or hexadecimal values to represent characters.</p>
             </details>
         </section>
 
         <section class="converters-list">
-            <h2>Related Tools</h2>
+            <h2>You May Also Need</h2>
             <div class="converter-cards">
                 <a href="/html-encode.html" class="card">
-                    <h3>HTML Encoder</h3>
-                    <p>Encode text to HTML entities online for free. Convert special characters like <,...</p>
+                    <h3>HTML Entity Encoder</h3>
+                    <p>Encode special characters to HTML entities</p>
                 </a>
                 <a href="/url-decode.html" class="card">
                     <h3>URL Decoder</h3>
-                    <p>Decode URL-encoded strings online for free. Convert percent-encoded text back to...</p>
+                    <p>Decode URL-encoded text (percent decoding)</p>
+                </a>
+                <a href="/html-to-markdown.html" class="card">
+                    <h3>HTML to Markdown</h3>
+                    <p>Convert HTML code to Markdown syntax</p>
                 </a>
                 <a href="/base64-decode.html" class="card">
                     <h3>Base64 Decoder</h3>
-                    <p>Decode Base64 strings to text online for free. Convert Base64 encoded data back ...</p>
-                </a>
-                <a href="/html-to-markdown.html" class="card">
-                    <h3>HTML to Markdown Converter</h3>
-                    <p>Convert HTML to Markdown online for free. Transform HTML tags to clean Markdown ...</p>
+                    <p>Decode Base64 encoded text back to readable text</p>
                 </a>
             </div>
         </section>

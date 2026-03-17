@@ -24,34 +24,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Does the first row need to be headers?",
+      "name": "How do I convert CSV data to JSON format?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, the converter uses the first row as JSON property names. Each subsequent row becomes a JSON object with those keys."
+        "text": "Paste your CSV data (comma-separated values) into the input area and the tool converts it to a JSON array. The first row is used as property names, and each subsequent row becomes a JSON object with those properties."
       }
     },
     {
       "@type": "Question",
-      "name": "Can it handle TSV (tab-separated) data?",
+      "name": "Does it handle different CSV delimiters?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The tool is designed for comma-separated data. For TSV, you can first replace tabs with commas, or look for a dedicated TSV to JSON tool."
+        "text": "The tool primarily handles comma-separated data. For tab-separated (TSV) or semicolon-separated data, you may need to preprocess the delimiter. Standard CSV features like quoted fields and escaped commas are supported."
       }
     },
     {
       "@type": "Question",
-      "name": "How are empty values handled?",
+      "name": "Can I convert large CSV files to JSON?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Empty CSV fields are converted to empty strings in JSON. If you need null values instead, you may need to post-process the JSON output."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about numbers and booleans in CSV?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The converter attempts to detect and preserve data types. Values that look like numbers are converted to JSON numbers, and 'true'/'false' may be converted to booleans."
+        "text": "Yes! The tool processes CSV data of any size in your browser. For very large files (10,000+ rows), processing may take a moment but no data is uploaded to any server. All conversion happens locally for privacy and speed."
       }
     }
   ]
@@ -108,41 +100,37 @@
         <section class="faq">
             <h2>Frequently Asked Questions</h2>
             <details>
-                <summary>Does the first row need to be headers?</summary>
-                <p>Yes, the converter uses the first row as JSON property names. Each subsequent row becomes a JSON object with those keys.</p>
+                <summary>How do I convert CSV data to JSON format?</summary>
+                <p>Paste your CSV data (comma-separated values) into the input area and the tool converts it to a JSON array. The first row is used as property names, and each subsequent row becomes a JSON object with those properties.</p>
             </details>
             <details>
-                <summary>Can it handle TSV (tab-separated) data?</summary>
-                <p>The tool is designed for comma-separated data. For TSV, you can first replace tabs with commas, or look for a dedicated TSV to JSON tool.</p>
+                <summary>Does it handle different CSV delimiters?</summary>
+                <p>The tool primarily handles comma-separated data. For tab-separated (TSV) or semicolon-separated data, you may need to preprocess the delimiter. Standard CSV features like quoted fields and escaped commas are supported.</p>
             </details>
             <details>
-                <summary>How are empty values handled?</summary>
-                <p>Empty CSV fields are converted to empty strings in JSON. If you need null values instead, you may need to post-process the JSON output.</p>
-            </details>
-            <details>
-                <summary>What about numbers and booleans in CSV?</summary>
-                <p>The converter attempts to detect and preserve data types. Values that look like numbers are converted to JSON numbers, and 'true'/'false' may be converted to booleans.</p>
+                <summary>Can I convert large CSV files to JSON?</summary>
+                <p>Yes! The tool processes CSV data of any size in your browser. For very large files (10,000+ rows), processing may take a moment but no data is uploaded to any server. All conversion happens locally for privacy and speed.</p>
             </details>
         </section>
 
         <section class="converters-list">
-            <h2>Related Tools</h2>
+            <h2>You May Also Need</h2>
             <div class="converter-cards">
                 <a href="/json-to-csv.html" class="card">
-                    <h3>JSON to CSV Converter</h3>
-                    <p>Convert JSON to CSV online for free. Transform JSON arrays to CSV spreadsheet fo...</p>
+                    <h3>JSON to CSV</h3>
+                    <p>Convert JSON data to CSV format</p>
                 </a>
                 <a href="/json-formatter.html" class="card">
-                    <h3>JSON Formatter</h3>
-                    <p>Format and beautify JSON online for free. Pretty-print JSON with proper indentat...</p>
+                    <h3>JSON Formatter & Validator</h3>
+                    <p>Format, beautify and validate JSON code online</p>
                 </a>
                 <a href="/json-minifier.html" class="card">
                     <h3>JSON Minifier</h3>
-                    <p>Minify JSON online for free. Remove whitespace, line breaks, and indentation to ...</p>
+                    <p>Minify and compress JSON code to reduce file size</p>
                 </a>
                 <a href="/diff-checker.html" class="card">
                     <h3>Text Diff Checker</h3>
-                    <p>Compare two texts and find differences online for free. Side-by-side diff view w...</p>
+                    <p>Compare two texts and find differences between them</p>
                 </a>
             </div>
         </section>

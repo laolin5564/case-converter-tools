@@ -24,34 +24,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What characters need URL encoding?",
+      "name": "How do I URL encode special characters?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Spaces, &, =, ?, #, /, and any non-ASCII characters need encoding. Reserved characters like : and @ may also need encoding depending on where they appear in the URL."
+        "text": "Paste your text or URL into the input area and the tool converts special characters to percent-encoded format. For example, spaces become \"%20\", ampersands become \"%26\". This makes text safe for use in URLs and query strings."
       }
     },
     {
       "@type": "Question",
-      "name": "What's the difference between encodeURI and encodeURIComponent?",
+      "name": "When do I need to URL encode text?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "encodeURI encodes a full URI, preserving characters like : / ? # @. encodeURIComponent encodes everything except letters, digits, and - _ . ~, making it suitable for encoding individual URL parameters."
+        "text": "URL encoding is necessary when building query strings with special characters, passing data in URLs, creating API requests with parameters, encoding form data, and ensuring URLs are valid across all browsers and servers."
       }
     },
     {
       "@type": "Question",
-      "name": "Does it handle Unicode characters?",
+      "name": "What characters need to be URL encoded?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! Our encoder converts Unicode characters to their UTF-8 byte sequences and then percent-encodes each byte, following the standard RFC 3986 specification."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I use URL encoding?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use URL encoding whenever you're including user input or special characters in URLs, building query strings, submitting form data via GET requests, or constructing API endpoints with parameters."
+        "text": "Characters that must be encoded include spaces, &, =, ?, #, /, +, and non-ASCII characters. Letters (A-Z, a-z), digits (0-9), and a few special characters (-, _, ., ~) are safe and don't need encoding."
       }
     }
   ]
@@ -108,41 +100,37 @@
         <section class="faq">
             <h2>Frequently Asked Questions</h2>
             <details>
-                <summary>What characters need URL encoding?</summary>
-                <p>Spaces, &, =, ?, #, /, and any non-ASCII characters need encoding. Reserved characters like : and @ may also need encoding depending on where they appear in the URL.</p>
+                <summary>How do I URL encode special characters?</summary>
+                <p>Paste your text or URL into the input area and the tool converts special characters to percent-encoded format. For example, spaces become "%20", ampersands become "%26". This makes text safe for use in URLs and query strings.</p>
             </details>
             <details>
-                <summary>What's the difference between encodeURI and encodeURIComponent?</summary>
-                <p>encodeURI encodes a full URI, preserving characters like : / ? # @. encodeURIComponent encodes everything except letters, digits, and - _ . ~, making it suitable for encoding individual URL parameters.</p>
+                <summary>When do I need to URL encode text?</summary>
+                <p>URL encoding is necessary when building query strings with special characters, passing data in URLs, creating API requests with parameters, encoding form data, and ensuring URLs are valid across all browsers and servers.</p>
             </details>
             <details>
-                <summary>Does it handle Unicode characters?</summary>
-                <p>Yes! Our encoder converts Unicode characters to their UTF-8 byte sequences and then percent-encodes each byte, following the standard RFC 3986 specification.</p>
-            </details>
-            <details>
-                <summary>When should I use URL encoding?</summary>
-                <p>Use URL encoding whenever you're including user input or special characters in URLs, building query strings, submitting form data via GET requests, or constructing API endpoints with parameters.</p>
+                <summary>What characters need to be URL encoded?</summary>
+                <p>Characters that must be encoded include spaces, &, =, ?, #, /, +, and non-ASCII characters. Letters (A-Z, a-z), digits (0-9), and a few special characters (-, _, ., ~) are safe and don't need encoding.</p>
             </details>
         </section>
 
         <section class="converters-list">
-            <h2>Related Tools</h2>
+            <h2>You May Also Need</h2>
             <div class="converter-cards">
                 <a href="/url-decode.html" class="card">
                     <h3>URL Decoder</h3>
-                    <p>Decode URL-encoded strings online for free. Convert percent-encoded text back to...</p>
-                </a>
-                <a href="/html-encode.html" class="card">
-                    <h3>HTML Encoder</h3>
-                    <p>Encode text to HTML entities online for free. Convert special characters like <,...</p>
+                    <p>Decode URL-encoded text (percent decoding)</p>
                 </a>
                 <a href="/base64-encode.html" class="card">
                     <h3>Base64 Encoder</h3>
-                    <p>Encode text to Base64 format online for free. Convert any string to Base64 encod...</p>
+                    <p>Encode text to Base64 format for data transmission</p>
+                </a>
+                <a href="/html-encode.html" class="card">
+                    <h3>HTML Entity Encoder</h3>
+                    <p>Encode special characters to HTML entities</p>
                 </a>
                 <a href="/slug-generator.html" class="card">
-                    <h3>Slug Generator</h3>
-                    <p>Generate URL slugs online for free. Convert any text to SEO-friendly URL slugs. ...</p>
+                    <h3>URL Slug Generator</h3>
+                    <p>Convert text to URL-friendly slugs for SEO and clean URLs</p>
                 </a>
             </div>
         </section>

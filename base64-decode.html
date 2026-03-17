@@ -24,10 +24,18 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What if the decoded output looks like gibberish?",
+      "name": "How do I decode Base64 to readable text?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the original data was binary (like an image or file), the decoded output won't be readable text. Base64 decoding works best when the original content was text or a readable format."
+        "text": "Paste the Base64 encoded string into the input area and the tool instantly decodes it to the original text. It handles standard Base64 (RFC 4648) including padding characters (=) automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Base64 decoded text look like?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Base64 decoding converts encoded strings like \"SGVsbG8gV29ybGQ=\" back to readable text (\"Hello World\"). If the original data was binary (like an image), the decoded output will show the raw binary data."
       }
     },
     {
@@ -35,23 +43,7 @@
       "name": "How do I know if a string is Base64 encoded?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Base64 strings typically contain only A-Z, a-z, 0-9, +, and /, and may end with = or == padding. They're always a multiple of 4 characters in length."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I decode Base64 images?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This tool decodes Base64 to text. For Base64-encoded images, you'd need to save the decoded binary data as an image file, or use a specialized Base64 image decoder."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Base64 decoding safe?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Base64 decoding itself is completely safe — it simply converts the encoding format. However, always be cautious about the decoded content, especially if it came from an untrusted source."
+        "text": "Base64 encoded strings contain only A-Z, a-z, 0-9, plus (+), slash (/), and equals (=) for padding. They're typically a multiple of 4 characters long. Common signs include strings ending with \"=\" or \"==\" padding."
       }
     }
   ]
@@ -108,41 +100,37 @@
         <section class="faq">
             <h2>Frequently Asked Questions</h2>
             <details>
-                <summary>What if the decoded output looks like gibberish?</summary>
-                <p>If the original data was binary (like an image or file), the decoded output won't be readable text. Base64 decoding works best when the original content was text or a readable format.</p>
+                <summary>How do I decode Base64 to readable text?</summary>
+                <p>Paste the Base64 encoded string into the input area and the tool instantly decodes it to the original text. It handles standard Base64 (RFC 4648) including padding characters (=) automatically.</p>
+            </details>
+            <details>
+                <summary>What does Base64 decoded text look like?</summary>
+                <p>Base64 decoding converts encoded strings like "SGVsbG8gV29ybGQ=" back to readable text ("Hello World"). If the original data was binary (like an image), the decoded output will show the raw binary data.</p>
             </details>
             <details>
                 <summary>How do I know if a string is Base64 encoded?</summary>
-                <p>Base64 strings typically contain only A-Z, a-z, 0-9, +, and /, and may end with = or == padding. They're always a multiple of 4 characters in length.</p>
-            </details>
-            <details>
-                <summary>Can I decode Base64 images?</summary>
-                <p>This tool decodes Base64 to text. For Base64-encoded images, you'd need to save the decoded binary data as an image file, or use a specialized Base64 image decoder.</p>
-            </details>
-            <details>
-                <summary>Is Base64 decoding safe?</summary>
-                <p>Base64 decoding itself is completely safe — it simply converts the encoding format. However, always be cautious about the decoded content, especially if it came from an untrusted source.</p>
+                <p>Base64 encoded strings contain only A-Z, a-z, 0-9, plus (+), slash (/), and equals (=) for padding. They're typically a multiple of 4 characters long. Common signs include strings ending with "=" or "==" padding.</p>
             </details>
         </section>
 
         <section class="converters-list">
-            <h2>Related Tools</h2>
+            <h2>You May Also Need</h2>
             <div class="converter-cards">
                 <a href="/base64-encode.html" class="card">
                     <h3>Base64 Encoder</h3>
-                    <p>Encode text to Base64 format online for free. Convert any string to Base64 encod...</p>
+                    <p>Encode text to Base64 format for data transmission</p>
                 </a>
                 <a href="/url-decode.html" class="card">
                     <h3>URL Decoder</h3>
-                    <p>Decode URL-encoded strings online for free. Convert percent-encoded text back to...</p>
+                    <p>Decode URL-encoded text (percent decoding)</p>
                 </a>
                 <a href="/html-decode.html" class="card">
-                    <h3>HTML Decoder</h3>
-                    <p>Decode HTML entities to text online for free. Convert &amp;, &lt;, &gt; and othe...</p>
+                    <h3>HTML Entity Decoder</h3>
+                    <p>Decode HTML entities back to normal characters</p>
                 </a>
-                <a href="/hex-to-text.html" class="card">
-                    <h3>Hex to Text Converter</h3>
-                    <p>Convert hexadecimal to text online for free. Decode hex strings back to readable...</p>
+                <a href="/binary-to-text.html" class="card">
+                    <h3>Binary to Text</h3>
+                    <p>Convert binary code to readable text</p>
                 </a>
             </div>
         </section>

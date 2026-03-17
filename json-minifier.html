@@ -24,34 +24,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How much space does minification save?",
+      "name": "How do I minify JSON to reduce file size?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Typically 20-60% depending on the formatting. Heavily indented JSON with long keys saves more, while simple flat structures save less."
+        "text": "Paste your formatted JSON into the input area and click minify. The tool removes all unnecessary whitespace, line breaks, and indentation while preserving the data structure. This produces the smallest possible valid JSON string."
       }
     },
     {
       "@type": "Question",
-      "name": "Does minification change the data?",
+      "name": "How much can JSON minification reduce file size?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No! Minification only removes whitespace and formatting. The data structure, keys, values, and types remain exactly the same."
+        "text": "Depending on the formatting, minification can reduce JSON file size by 20-60%. Heavily indented JSON with many nested objects sees the biggest savings. This is especially important for API responses and configuration files served over the network."
       }
     },
     {
       "@type": "Question",
-      "name": "Should I minify JSON for APIs?",
+      "name": "Is minified JSON still valid?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, minifying JSON reduces bandwidth and improves response times. Most production APIs serve minified JSON. Human-readable formatting is only needed during development and debugging."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I minify JSON with comments?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Standard JSON doesn't support comments. If your JSON contains comments (like JSONC), they need to be removed first. The minifier works with valid JSON only."
+        "text": "Yes! Minified JSON is 100% valid and functionally identical to the formatted version. Only whitespace is removed — the data structure, values, and types remain exactly the same. All JSON parsers handle minified JSON correctly."
       }
     }
   ]
@@ -108,41 +100,37 @@
         <section class="faq">
             <h2>Frequently Asked Questions</h2>
             <details>
-                <summary>How much space does minification save?</summary>
-                <p>Typically 20-60% depending on the formatting. Heavily indented JSON with long keys saves more, while simple flat structures save less.</p>
+                <summary>How do I minify JSON to reduce file size?</summary>
+                <p>Paste your formatted JSON into the input area and click minify. The tool removes all unnecessary whitespace, line breaks, and indentation while preserving the data structure. This produces the smallest possible valid JSON string.</p>
             </details>
             <details>
-                <summary>Does minification change the data?</summary>
-                <p>No! Minification only removes whitespace and formatting. The data structure, keys, values, and types remain exactly the same.</p>
+                <summary>How much can JSON minification reduce file size?</summary>
+                <p>Depending on the formatting, minification can reduce JSON file size by 20-60%. Heavily indented JSON with many nested objects sees the biggest savings. This is especially important for API responses and configuration files served over the network.</p>
             </details>
             <details>
-                <summary>Should I minify JSON for APIs?</summary>
-                <p>Yes, minifying JSON reduces bandwidth and improves response times. Most production APIs serve minified JSON. Human-readable formatting is only needed during development and debugging.</p>
-            </details>
-            <details>
-                <summary>Can I minify JSON with comments?</summary>
-                <p>Standard JSON doesn't support comments. If your JSON contains comments (like JSONC), they need to be removed first. The minifier works with valid JSON only.</p>
+                <summary>Is minified JSON still valid?</summary>
+                <p>Yes! Minified JSON is 100% valid and functionally identical to the formatted version. Only whitespace is removed — the data structure, values, and types remain exactly the same. All JSON parsers handle minified JSON correctly.</p>
             </details>
         </section>
 
         <section class="converters-list">
-            <h2>Related Tools</h2>
+            <h2>You May Also Need</h2>
             <div class="converter-cards">
                 <a href="/json-formatter.html" class="card">
-                    <h3>JSON Formatter</h3>
-                    <p>Format and beautify JSON online for free. Pretty-print JSON with proper indentat...</p>
+                    <h3>JSON Formatter & Validator</h3>
+                    <p>Format, beautify and validate JSON code online</p>
                 </a>
                 <a href="/json-to-csv.html" class="card">
-                    <h3>JSON to CSV Converter</h3>
-                    <p>Convert JSON to CSV online for free. Transform JSON arrays to CSV spreadsheet fo...</p>
+                    <h3>JSON to CSV</h3>
+                    <p>Convert JSON data to CSV format</p>
                 </a>
                 <a href="/csv-to-json.html" class="card">
-                    <h3>CSV to JSON Converter</h3>
-                    <p>Convert CSV to JSON online for free. Transform spreadsheet data to JSON format f...</p>
+                    <h3>CSV to JSON</h3>
+                    <p>Convert CSV data to JSON format</p>
                 </a>
                 <a href="/html-encode.html" class="card">
-                    <h3>HTML Encoder</h3>
-                    <p>Encode text to HTML entities online for free. Convert special characters like <,...</p>
+                    <h3>HTML Entity Encoder</h3>
+                    <p>Encode special characters to HTML entities</p>
                 </a>
             </div>
         </section>

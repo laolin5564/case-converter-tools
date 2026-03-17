@@ -24,34 +24,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What JSON format does it accept?",
+      "name": "How do I convert JSON to CSV spreadsheet format?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The converter works best with JSON arrays of objects, like [{"name":"John","age":30}, {"name":"Jane","age":25}]. Each object becomes a row, and keys become column headers."
+        "text": "Paste your JSON array into the input area and the tool converts it to CSV format. Object keys become column headers, and values become row data. The output can be directly imported into Excel, Google Sheets, or any spreadsheet application."
       }
     },
     {
       "@type": "Question",
-      "name": "How does it handle nested JSON?",
+      "name": "What JSON structure works best for CSV conversion?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nested objects are flattened using dot notation (e.g., address.city). Arrays within objects are converted to comma-separated strings within the CSV cell."
+        "text": "An array of flat objects works best: [{\"name\":\"John\",\"age\":30}, {\"name\":\"Jane\",\"age\":25}]. Nested objects and arrays are flattened or serialized. Consistent keys across objects produce the cleanest CSV output."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I use the CSV in Excel?",
+      "name": "Can I open the converted CSV in Excel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! The generated CSV uses standard formatting that opens directly in Microsoft Excel, Google Sheets, LibreOffice Calc, and any other spreadsheet application."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about special characters in values?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Values containing commas, quotes, or newlines are automatically wrapped in double quotes and properly escaped according to RFC 4180 CSV standards."
+        "text": "Yes! Copy the CSV output and save it as a .csv file, or paste it directly into Excel. The standard comma-separated format is compatible with Microsoft Excel, Google Sheets, LibreOffice Calc, and all major spreadsheet applications."
       }
     }
   ]
@@ -108,41 +100,37 @@
         <section class="faq">
             <h2>Frequently Asked Questions</h2>
             <details>
-                <summary>What JSON format does it accept?</summary>
-                <p>The converter works best with JSON arrays of objects, like [{"name":"John","age":30}, {"name":"Jane","age":25}]. Each object becomes a row, and keys become column headers.</p>
+                <summary>How do I convert JSON to CSV spreadsheet format?</summary>
+                <p>Paste your JSON array into the input area and the tool converts it to CSV format. Object keys become column headers, and values become row data. The output can be directly imported into Excel, Google Sheets, or any spreadsheet application.</p>
             </details>
             <details>
-                <summary>How does it handle nested JSON?</summary>
-                <p>Nested objects are flattened using dot notation (e.g., address.city). Arrays within objects are converted to comma-separated strings within the CSV cell.</p>
+                <summary>What JSON structure works best for CSV conversion?</summary>
+                <p>An array of flat objects works best: [{"name":"John","age":30}, {"name":"Jane","age":25}]. Nested objects and arrays are flattened or serialized. Consistent keys across objects produce the cleanest CSV output.</p>
             </details>
             <details>
-                <summary>Can I use the CSV in Excel?</summary>
-                <p>Yes! The generated CSV uses standard formatting that opens directly in Microsoft Excel, Google Sheets, LibreOffice Calc, and any other spreadsheet application.</p>
-            </details>
-            <details>
-                <summary>What about special characters in values?</summary>
-                <p>Values containing commas, quotes, or newlines are automatically wrapped in double quotes and properly escaped according to RFC 4180 CSV standards.</p>
+                <summary>Can I open the converted CSV in Excel?</summary>
+                <p>Yes! Copy the CSV output and save it as a .csv file, or paste it directly into Excel. The standard comma-separated format is compatible with Microsoft Excel, Google Sheets, LibreOffice Calc, and all major spreadsheet applications.</p>
             </details>
         </section>
 
         <section class="converters-list">
-            <h2>Related Tools</h2>
+            <h2>You May Also Need</h2>
             <div class="converter-cards">
                 <a href="/csv-to-json.html" class="card">
-                    <h3>CSV to JSON Converter</h3>
-                    <p>Convert CSV to JSON online for free. Transform spreadsheet data to JSON format f...</p>
+                    <h3>CSV to JSON</h3>
+                    <p>Convert CSV data to JSON format</p>
                 </a>
                 <a href="/json-formatter.html" class="card">
-                    <h3>JSON Formatter</h3>
-                    <p>Format and beautify JSON online for free. Pretty-print JSON with proper indentat...</p>
+                    <h3>JSON Formatter & Validator</h3>
+                    <p>Format, beautify and validate JSON code online</p>
                 </a>
                 <a href="/json-minifier.html" class="card">
                     <h3>JSON Minifier</h3>
-                    <p>Minify JSON online for free. Remove whitespace, line breaks, and indentation to ...</p>
+                    <p>Minify and compress JSON code to reduce file size</p>
                 </a>
                 <a href="/diff-checker.html" class="card">
                     <h3>Text Diff Checker</h3>
-                    <p>Compare two texts and find differences online for free. Side-by-side diff view w...</p>
+                    <p>Compare two texts and find differences between them</p>
                 </a>
             </div>
         </section>

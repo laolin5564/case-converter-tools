@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://case-converter.laolin.ai/sitemap.xml

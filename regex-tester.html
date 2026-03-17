@@ -24,34 +24,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What regex syntax is supported?",
+      "name": "How do I test a regular expression online?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The tester uses JavaScript's RegExp engine, supporting standard regex syntax including character classes, quantifiers, groups, lookaheads, lookbehinds, and all standard flags."
+        "text": "Enter your regex pattern in the pattern field and your test string in the text area. The tool highlights all matches in real-time, showing match groups, positions, and capture groups. It supports JavaScript regex syntax with all flags (g, i, m, s)."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I use capture groups?",
+      "name": "What regex flags are supported?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use parentheses () to create capture groups. Named groups use (?<name>...) syntax. The tester shows all captured groups for each match."
+        "text": "The tester supports all JavaScript regex flags: g (global - find all matches), i (case-insensitive), m (multiline - ^ and $ match line boundaries), s (dotAll - dot matches newlines), and u (unicode - full Unicode support)."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I test regex for other languages?",
+      "name": "Can I see capture groups in my regex matches?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "While the tester uses JavaScript regex, most basic patterns work across languages. Some advanced features (like lookbehinds) may have different support in other languages like Python or Java."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common regex flags?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "g (global - find all matches), i (case-insensitive), m (multiline - ^ and $ match line boundaries), s (dotAll - . matches newlines), u (Unicode mode)."
+        "text": "Yes! The tool displays all capture groups for each match, showing both named and numbered groups with their matched values and positions. This is invaluable for debugging complex patterns with multiple capture groups."
       }
     }
   ]
@@ -108,41 +100,37 @@
         <section class="faq">
             <h2>Frequently Asked Questions</h2>
             <details>
-                <summary>What regex syntax is supported?</summary>
-                <p>The tester uses JavaScript's RegExp engine, supporting standard regex syntax including character classes, quantifiers, groups, lookaheads, lookbehinds, and all standard flags.</p>
+                <summary>How do I test a regular expression online?</summary>
+                <p>Enter your regex pattern in the pattern field and your test string in the text area. The tool highlights all matches in real-time, showing match groups, positions, and capture groups. It supports JavaScript regex syntax with all flags (g, i, m, s).</p>
             </details>
             <details>
-                <summary>How do I use capture groups?</summary>
-                <p>Use parentheses () to create capture groups. Named groups use (?<name>...) syntax. The tester shows all captured groups for each match.</p>
+                <summary>What regex flags are supported?</summary>
+                <p>The tester supports all JavaScript regex flags: g (global - find all matches), i (case-insensitive), m (multiline - ^ and $ match line boundaries), s (dotAll - dot matches newlines), and u (unicode - full Unicode support).</p>
             </details>
             <details>
-                <summary>Can I test regex for other languages?</summary>
-                <p>While the tester uses JavaScript regex, most basic patterns work across languages. Some advanced features (like lookbehinds) may have different support in other languages like Python or Java.</p>
-            </details>
-            <details>
-                <summary>What are the common regex flags?</summary>
-                <p>g (global - find all matches), i (case-insensitive), m (multiline - ^ and $ match line boundaries), s (dotAll - . matches newlines), u (Unicode mode).</p>
+                <summary>Can I see capture groups in my regex matches?</summary>
+                <p>Yes! The tool displays all capture groups for each match, showing both named and numbered groups with their matched values and positions. This is invaluable for debugging complex patterns with multiple capture groups.</p>
             </details>
         </section>
 
         <section class="converters-list">
-            <h2>Related Tools</h2>
+            <h2>You May Also Need</h2>
             <div class="converter-cards">
                 <a href="/find-and-replace.html" class="card">
                     <h3>Find and Replace</h3>
-                    <p>Find and replace text online for free. Bulk text replacement with case sensitivi...</p>
+                    <p>Find and replace text in bulk with support for case sensitivity</p>
                 </a>
-                <a href="/remove-duplicate-lines.html" class="card">
-                    <h3>Remove Duplicate Lines</h3>
-                    <p>Remove duplicate lines from text online for free. Deduplicate text data instantl...</p>
-                </a>
-                <a href="/sort-lines.html" class="card">
-                    <h3>Sort Lines</h3>
-                    <p>Sort lines of text alphabetically online for free. Sort ascending, descending, o...</p>
+                <a href="/diff-checker.html" class="card">
+                    <h3>Text Diff Checker</h3>
+                    <p>Compare two texts and find differences between them</p>
                 </a>
                 <a href="/slug-generator.html" class="card">
-                    <h3>Slug Generator</h3>
-                    <p>Generate URL slugs online for free. Convert any text to SEO-friendly URL slugs. ...</p>
+                    <h3>URL Slug Generator</h3>
+                    <p>Convert text to URL-friendly slugs for SEO and clean URLs</p>
+                </a>
+                <a href="/timestamp-converter.html" class="card">
+                    <h3>Unix Timestamp Converter</h3>
+                    <p>Convert Unix timestamps to readable dates and vice versa</p>
                 </a>
             </div>
         </section>
