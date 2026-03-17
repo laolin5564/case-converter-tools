@@ -109,7 +109,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - **Live Site**: [https://case-converter.laolin.ai/](https://case-converter.laolin.ai/)
-- **Report Issues**: [GitHub Issues](https://github.com/laolin/case-converter-tools/issues)
+- **Report Issues**: [GitHub Issues](https://github.com/laolin5564/case-converter-tools/issues)
 
 ---
 

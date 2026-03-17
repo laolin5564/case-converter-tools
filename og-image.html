@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  width: 1200px;
+  height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Grid pattern overlay */
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Glow effect */
+.glow {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.3;
+}
+.glow-1 { background: #6366f1; top: -100px; right: -50px; }
+.glow-2 { background: #06b6d4; bottom: -100px; left: -50px; }
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 60px;
+}
+
+.emoji {
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  color: #f8fafc;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
+h1 span {
+  background: linear-gradient(135deg, #6366f1, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 26px;
+  color: #94a3b8;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.tools {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tool-tag {
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  color: #a5b4fc;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.url {
+  margin-top: 36px;
+  font-size: 18px;
+  color: #64748b;
+  font-weight: 500;
+}
+</style>
+</head>
+<body>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="container">
+    <div class="emoji">🔧</div>
+    <h1>Case Converter <span>Tools</span></h1>
+    <p class="subtitle">50+ Free Online Text Tools for Developers & Writers</p>
+    <div class="tools">
+      <span class="tool-tag">camelCase</span>
+      <span class="tool-tag">snake_case</span>
+      <span class="tool-tag">JSON Formatter</span>
+      <span class="tool-tag">Base64</span>
+      <span class="tool-tag">Word Counter</span>
+      <span class="tool-tag">Regex Tester</span>
+      <span class="tool-tag">UUID Generator</span>
+      <span class="tool-tag">QR Code</span>
+    </div>
+    <p class="url">case-converter.laolin.ai</p>
+  </div>
+</body>
+</html>
