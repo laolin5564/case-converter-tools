@@ -1,0 +1,284 @@
+{
+  "tools": [
+    {
+      "id": "word-counter",
+      "title": "Word Counter",
+      "description": "Count words in your text instantly with our free word counter tool",
+      "keywords": "word counter, word count, count words, text word counter",
+      "category": "text-tools"
+    },
+    {
+      "id": "character-counter",
+      "title": "Character Counter",
+      "description": "Count characters and letters in your text with our free character counter",
+      "keywords": "character counter, character count, letter counter, count characters",
+      "category": "text-tools"
+    },
+    {
+      "id": "line-counter",
+      "title": "Line Counter",
+      "description": "Count the number of lines in your text instantly",
+      "keywords": "line counter, line count, count lines, text line counter",
+      "category": "text-tools"
+    },
+    {
+      "id": "sentence-counter",
+      "title": "Sentence Counter",
+      "description": "Count sentences in your text with our free sentence counter tool",
+      "keywords": "sentence counter, sentence count, count sentences",
+      "category": "text-tools"
+    },
+    {
+      "id": "paragraph-counter",
+      "title": "Paragraph Counter",
+      "description": "Count paragraphs in your text instantly and accurately",
+      "keywords": "paragraph counter, paragraph count, count paragraphs",
+      "category": "text-tools"
+    },
+    {
+      "id": "lorem-ipsum-generator",
+      "title": "Lorem Ipsum Generator",
+      "description": "Generate Lorem Ipsum placeholder text for your designs and mockups",
+      "keywords": "lorem ipsum, lorem ipsum generator, placeholder text, dummy text",
+      "category": "generators"
+    },
+    {
+      "id": "random-string-generator",
+      "title": "Random String Generator",
+      "description": "Generate random alphanumeric strings for testing and development",
+      "keywords": "random string, string generator, random text generator",
+      "category": "generators"
+    },
+    {
+      "id": "uuid-generator",
+      "title": "UUID Generator",
+      "description": "Generate unique UUIDs (v4) for your applications and databases",
+      "keywords": "uuid generator, unique id, guid generator, uuid v4",
+      "category": "generators"
+    },
+    {
+      "id": "password-generator",
+      "title": "Password Generator",
+      "description": "Generate strong, secure random passwords for your accounts",
+      "keywords": "password generator, strong password, random password, secure password",
+      "category": "generators"
+    },
+    {
+      "id": "slug-generator",
+      "title": "URL Slug Generator",
+      "description": "Convert text to URL-friendly slugs for SEO and clean URLs",
+      "keywords": "slug generator, url slug, url converter, seo slug",
+      "category": "generators"
+    },
+    {
+      "id": "text-repeater",
+      "title": "Text Repeater",
+      "description": "Repeat text multiple times quickly and easily",
+      "keywords": "text repeater, repeat text, duplicate text, text multiplier",
+      "category": "converters"
+    },
+    {
+      "id": "text-reverser",
+      "title": "Reverse Text",
+      "description": "Reverse your text backwards instantly with our text reverser tool",
+      "keywords": "reverse text, text reverser, backwards text, flip text",
+      "category": "converters"
+    },
+    {
+      "id": "remove-duplicate-lines",
+      "title": "Remove Duplicate Lines",
+      "description": "Remove duplicate lines from text and keep only unique lines",
+      "keywords": "remove duplicates, duplicate lines, unique lines, remove duplicate text",
+      "category": "converters"
+    },
+    {
+      "id": "remove-empty-lines",
+      "title": "Remove Empty Lines",
+      "description": "Remove all empty and blank lines from your text",
+      "keywords": "remove empty lines, remove blank lines, clean text, delete empty lines",
+      "category": "converters"
+    },
+    {
+      "id": "remove-line-breaks",
+      "title": "Remove Line Breaks",
+      "description": "Remove line breaks and newlines to join text into one line",
+      "keywords": "remove line breaks, remove newlines, join lines, single line text",
+      "category": "converters"
+    },
+    {
+      "id": "add-line-numbers",
+      "title": "Add Line Numbers",
+      "description": "Add line numbers to each line of your text automatically",
+      "keywords": "add line numbers, number lines, line numbering",
+      "category": "converters"
+    },
+    {
+      "id": "sort-lines",
+      "title": "Sort Lines Alphabetically",
+      "description": "Sort text lines in alphabetical order (A-Z or Z-A)",
+      "keywords": "sort lines, alphabetical sort, sort text, order lines",
+      "category": "converters"
+    },
+    {
+      "id": "text-to-binary",
+      "title": "Text to Binary",
+      "description": "Convert text to binary code (0s and 1s)",
+      "keywords": "text to binary, binary converter, text to binary code",
+      "category": "converters"
+    },
+    {
+      "id": "binary-to-text",
+      "title": "Binary to Text",
+      "description": "Convert binary code to readable text",
+      "keywords": "binary to text, binary decoder, binary converter",
+      "category": "converters"
+    },
+    {
+      "id": "text-to-hex",
+      "title": "Text to Hex",
+      "description": "Convert text to hexadecimal (hex) format",
+      "keywords": "text to hex, hex converter, hexadecimal converter",
+      "category": "converters"
+    },
+    {
+      "id": "hex-to-text",
+      "title": "Hex to Text",
+      "description": "Convert hexadecimal (hex) to readable text",
+      "keywords": "hex to text, hex decoder, hexadecimal to text",
+      "category": "converters"
+    },
+    {
+      "id": "base64-encode",
+      "title": "Base64 Encoder",
+      "description": "Encode text to Base64 format for data transmission",
+      "keywords": "base64 encoder, base64 encode, encode base64",
+      "category": "converters"
+    },
+    {
+      "id": "base64-decode",
+      "title": "Base64 Decoder",
+      "description": "Decode Base64 encoded text back to readable text",
+      "keywords": "base64 decoder, base64 decode, decode base64",
+      "category": "converters"
+    },
+    {
+      "id": "url-encode",
+      "title": "URL Encoder",
+      "description": "Encode text for safe use in URLs (percent encoding)",
+      "keywords": "url encoder, url encode, percent encoding, encode url",
+      "category": "converters"
+    },
+    {
+      "id": "url-decode",
+      "title": "URL Decoder",
+      "description": "Decode URL-encoded text (percent decoding)",
+      "keywords": "url decoder, url decode, percent decoding, decode url",
+      "category": "converters"
+    },
+    {
+      "id": "html-encode",
+      "title": "HTML Entity Encoder",
+      "description": "Encode special characters to HTML entities",
+      "keywords": "html encoder, html entities, encode html, html escape",
+      "category": "dev-tools"
+    },
+    {
+      "id": "html-decode",
+      "title": "HTML Entity Decoder",
+      "description": "Decode HTML entities back to normal characters",
+      "keywords": "html decoder, html entities decoder, decode html, unescape html",
+      "category": "dev-tools"
+    },
+    {
+      "id": "json-formatter",
+      "title": "JSON Formatter & Validator",
+      "description": "Format, beautify and validate JSON code online",
+      "keywords": "json formatter, json validator, json beautifier, format json",
+      "category": "dev-tools"
+    },
+    {
+      "id": "json-minifier",
+      "title": "JSON Minifier",
+      "description": "Minify and compress JSON code to reduce file size",
+      "keywords": "json minifier, json compressor, minify json, compress json",
+      "category": "dev-tools"
+    },
+    {
+      "id": "markdown-to-html",
+      "title": "Markdown to HTML",
+      "description": "Convert Markdown syntax to HTML code",
+      "keywords": "markdown to html, markdown converter, md to html",
+      "category": "dev-tools"
+    },
+    {
+      "id": "html-to-markdown",
+      "title": "HTML to Markdown",
+      "description": "Convert HTML code to Markdown syntax",
+      "keywords": "html to markdown, html converter, convert html to md",
+      "category": "dev-tools"
+    },
+    {
+      "id": "csv-to-json",
+      "title": "CSV to JSON",
+      "description": "Convert CSV data to JSON format",
+      "keywords": "csv to json, csv converter, convert csv to json",
+      "category": "dev-tools"
+    },
+    {
+      "id": "json-to-csv",
+      "title": "JSON to CSV",
+      "description": "Convert JSON data to CSV format",
+      "keywords": "json to csv, json converter, convert json to csv",
+      "category": "dev-tools"
+    },
+    {
+      "id": "diff-checker",
+      "title": "Text Diff Checker",
+      "description": "Compare two texts and find differences between them",
+      "keywords": "diff checker, text compare, compare text, text difference",
+      "category": "text-tools"
+    },
+    {
+      "id": "find-and-replace",
+      "title": "Find and Replace",
+      "description": "Find and replace text in bulk with support for case sensitivity",
+      "keywords": "find and replace, search and replace, text replace",
+      "category": "text-tools"
+    },
+    {
+      "id": "text-to-speech",
+      "title": "Text to Speech",
+      "description": "Convert text to speech audio using Web Speech API",
+      "keywords": "text to speech, tts, speech synthesis, read aloud",
+      "category": "text-tools"
+    },
+    {
+      "id": "qr-code-generator",
+      "title": "QR Code Generator",
+      "description": "Generate QR codes from text, URLs, or any data",
+      "keywords": "qr code generator, qr code maker, generate qr code",
+      "category": "generators"
+    },
+    {
+      "id": "color-picker",
+      "title": "Color Picker & Converter",
+      "description": "Pick colors and convert between HEX, RGB, and HSL formats",
+      "keywords": "color picker, color converter, hex to rgb, rgb to hex",
+      "category": "dev-tools"
+    },
+    {
+      "id": "timestamp-converter",
+      "title": "Unix Timestamp Converter",
+      "description": "Convert Unix timestamps to readable dates and vice versa",
+      "keywords": "timestamp converter, unix timestamp, epoch converter",
+      "category": "dev-tools"
+    },
+    {
+      "id": "regex-tester",
+      "title": "Regex Tester",
+      "description": "Test and validate regular expressions with live matching",
+      "keywords": "regex tester, regex validator, regexp tester, regular expression",
+      "category": "dev-tools"
+    }
+  ]
+}
